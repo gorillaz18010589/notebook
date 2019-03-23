@@ -1,0 +1,20 @@
+git merge --about (放棄合併)
+git  reset --hard HEAD~  (回到前一次的檔案,改變分支位置,hard的話新的檔案會蓋過舊的檔案
+git reflog (head紀錄)
+git checkout (指移動head指標 切換目錄)
+git reset --hard  343e3(回到那個commit)
+----------------------------
+		打好資料後先創倉庫在連上本地端方式
+進入bash
+1.打ssh -keygen 產生key
+2.找到生產的KEY複製
+3.到github>> seting >>ssh >>new key貼上複製的馬創造躍使
+4.git hub回到你的倉庫選SSH 複製網址
+4.(git remote add origin 網址)把本地端連接到雲端分支 註冊在那裡的位置還沒連線
+5.git push後
+6.下git push --set-upstream origin master
+=====================================
+	到家後下載回家資料
+1.進入倉庫
+2.clone or dowonlod 網址
+3.到終端機git clone 網址把整個資料夾下載下來
