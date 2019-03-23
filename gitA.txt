@@ -1,0 +1,20 @@
+git commit -m (把占存區檔案送到倉庫,並用簡短的話助解)
+git commit (可以下長注解)
+git log --oneline -1 (代表顯示最新第一個倉庫紀錄)
+git config --list (目前下的快速指令顯示)
+git checkout (切換版本回到那版本)
+如果今天有兩版本存在倉庫用checkout到第一版本時裡面檔案不包含第二版本,這樣就能給對方,你不想給的第二版本
+git co 編號的話  (head不會指向master)
+git  co master (head指向master) (head指向master,那master可移動)
+head (沒有指向master head直接指向編號叫斷頭)
+git commit -a -m (一個檔案如果有被追蹤過,早就被git add.那就可以用直接add+commit)
+*如果要退回到沒有Hello world的版本用check out到90bb5
+git reflog (查看操作紀錄)
+git reset  (head根master一起切過去指定版本)
+git tag talkb b3997 (talkb=名稱 , b3997等於指標,tag可讓你切換你要的版本(例投影片內容有兩種版本方便標記)
+git branch testing (分支測試版本)
+git check out (讓head指向 testing代表再走testing路線)
+animation(動畫英文)
+*剛打testing時因為繼續往上走 master沒有東西所以 git ol現在還是直得
+*在Master加入新的異動 commit 家客戶名字就會有分支了
+
