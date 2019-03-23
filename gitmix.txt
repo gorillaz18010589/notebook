@@ -1,0 +1,35 @@
+git init (上版本控制可受GIT管理)
+git rebase(把分支接到後面)
+git reset --hard testing (刪掉當前標投,跟到MASTER後,運用於rebase之後)
+git rebase -i edwd3 (
+*只要有變化就是版本更新(跟這個目錄有關的東西跟上次不同就是有變化)
+git status (裡面紅色字代表工作目錄有變化)(綠色自暫存區有變化)
+git commit (會開啟++問你存檔理由)
+working tree clean (工作目錄以空)
+git log (倉庫紀錄)
+紅色字代表有變動 你不要就刪掉 (達到跟上次一至就不會有紅字)
+git reset HEAD . (在紅色字占存區刪掉全部異動退回工作目錄(綠字)
+========================================
+        	heADC
+
+git co head^2 (2的意思是第二個分支)
+
+git co head^2~ (代表我要切到第二分支在往前推一格)
+
+git co head^2~3 (切到第二個分支往前推三格)
+
+windos dir(目錄)
+
+
+================================================
+	githup
+
+1.https://github.com/登入
+2.new file
+3.Repository (倉庫名子)
+4.Public(公用的大家都看的到)
+5.private(私人要付費)
+6.CD下載位置
+7.Clone網址
+8.打上 git clone 網址
+9.下載好資料夾到指定位置
