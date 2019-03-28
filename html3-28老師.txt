@@ -1,0 +1,7 @@
+<form action="https://www.google.com.tw/search">
+    關鍵字 <input name="q">&nbsp;
+    <input type="submit">
+</form>
+互動搜尋表單
+=================
+<a href="https://www.google.com/">Google</a> 

@@ -1,0 +1,17 @@
+1.<div style="height: 2000px; background-color: green "></div>  (設一個2000的背景顏色綠色)
+2.<a href="next.html">下一頁</a>(下一頁按鈕)
+3.<a id="top"></a>
+4.<a href="#top">回到最上方</a>
+5.<img src="a.jpg" width="500" height="400"> (連接圖片,設定大小)(用小圖才快*電商)
+6.<a href="https://www.facebook.com/MarvelStudioTaiwan/">
+	<img src="mravel.jpg" width="200">
+	</a>     (a~/a間超連結圖片)
+7.&nbsp; (空白建) ps:1/30頁特殊符號特殊指令
+<a href="next.html">下一頁</a>
+	<img src="image/mravel.jpg">
+8../:往上一層
+9.往下就/
+10:網上兩層../../
+
+
+
